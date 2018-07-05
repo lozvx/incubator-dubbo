@@ -30,6 +30,8 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
 /**
  * DubboNamespaceHandler
+ * Spring默认会在加载jar包下的 META-INF/spring.handlers文件下寻找NamespaceHandler，在 META-INF/spring.schemas 文件下查找schema 。
+ * 解析配置文件
  *
  * @export
  */

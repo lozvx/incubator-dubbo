@@ -45,6 +45,7 @@ import java.util.concurrent.TimeoutException;
  * @export
  * @see org.apache.dubbo.rpc.filter.ContextFilter
  */
+// RPC上下文，ThreadLocal
 public class RpcContext {
 
     /**

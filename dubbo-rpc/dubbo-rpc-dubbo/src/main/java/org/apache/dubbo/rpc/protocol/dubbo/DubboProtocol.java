@@ -292,6 +292,7 @@ public class DubboProtocol extends AbstractProtocol {
         }
     }
 
+    // 创建netty server
     private ExchangeServer createServer(URL url) {
         // send readonly event when server closes, it's enabled by default
         url = url.addParameterIfAbsent(Constants.CHANNEL_READONLYEVENT_SENT_KEY, Boolean.TRUE.toString());

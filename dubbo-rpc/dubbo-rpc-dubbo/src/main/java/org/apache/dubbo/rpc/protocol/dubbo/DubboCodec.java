@@ -46,6 +46,7 @@ import static org.apache.dubbo.rpc.protocol.dubbo.CallbackServiceCodec.encodeInv
 /**
  * Dubbo codec.
  */
+// 编解码 序列化 适配器
 public class DubboCodec extends ExchangeCodec implements Codec2 {
 
     public static final String NAME = "dubbo";

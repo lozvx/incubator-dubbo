@@ -63,6 +63,7 @@ public class InvokerInvocationHandler implements InvocationHandler {
         } else {
             invocation = new RpcInvocation(method, args);
         }
+        //调用invoke
         return invoker.invoke(invocation).recreate();
     }
 
